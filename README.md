@@ -13,7 +13,7 @@ You are tasked with designing and implementing a real-time data pipeline using A
 * Real-time Stream Processing: Develop Kafka consumer that subscribe to the topic and perform necessary transformations on the data stream.
 * Cloud Data Lake Integration: Integrate the processed data stream with a cloud data lake solution (e.g., AWS S3, Azure ADLS, GCS bucket) for persistent storage. Utilize appropriate connectors or libraries for seamless data transfer between Kafka and the data lake.
 * Scalability and Performance: Design your architecture to handle growing data volumes.
-### Note: All cloud resources are to be deployed using Terraform.
+### Note: All cloud resources are to be deployed using GitHub Actions and Terraform.
 ---
 ### Deliverables:
 * Technical Documentation (mandatory): A detailed document outlining your design decisions, chosen technologies, and implementation steps.
