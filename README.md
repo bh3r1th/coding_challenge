@@ -27,3 +27,6 @@ You are tasked with designing and implementing a real-time data pipeline using A
 * Documentation and Communication: Your ability to document design decisions, code functionality, and potential challenges through clear and concise communication will be evaluated.
 ---
 ## Summary
+Document everything in your GitHub public repo, and share the link to us once the challenge is completed.
+
+# Have fun with the challenge!
