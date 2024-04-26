@@ -1,3 +1,6 @@
-# coding_challenge
+# Coding Challenge
 
-This coding challenge is meant to test problem solving, execution, communication, and documentation. Documentation is really important and the solution should provide specific instructions on our to build and run your solution. Software building and designing is more of an art than just a skill so be creatvie and have fun.
+This coding challenge tests problem-solving, execution, communication, and documentation. Documentation is essential, and the solution should provide specific instructions for building and running it. 
+Solution architecture design is more art than a skill, so be creative and have fun.
+
+## Challenge Statement
