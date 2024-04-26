@@ -8,7 +8,9 @@ Solution architecture design is more art than a skill, so be creative and have f
 Your company is experiencing a rapid growth in user activity, generating a constant stream of data from various sources. This includes website clickstream data, user interactions with a mobile app, and real-time sensor readings from your infrastructure.
 
 ### Your Responsibilities
-You are tasked with designing and implementing a real-time data pipeline using Apache Kafka as the central messaging system. This pipeline will ingest data from these diverse sources, process it in real-time, and store it in a scalable cloud data lake. The data lake will serve as the foundation for future analytics and machine learning applications.
-* Data Ingestion with Kafka: Design and implement real-time data pipelines using Kafka topics for each data source. Consider data format handling (e.g., JSON, Avro) and potential pre-processing steps within Kafka producers.
-
-
+You are tasked with designing and implementing a real-time data pipeline using Apache Kafka as the central messaging system. This pipeline will ingest data from these diverse sources, process it in real-time, and store it in a scalable cloud data lake (your choice -  AWS, GCP, or Azure). The data lake will serve as the foundation for future analytics and machine learning applications.
+* Data Ingestion with Kafka: Design and implement real-time data pipeline using Confluent Kafka topic. You can use Datagen Source connector for sample data.
+* Real-time Stream Processing: Develop Kafka consumer that subscribe to the topic and perform necessary transformations on the data stream.
+* Cloud Data Lake Integration: Integrate the processed data stream with a cloud data lake solution (e.g., AWS S3, Azure ADLS, GCS bucket) for persistent storage. Utilize appropriate connectors or libraries for seamless data transfer between Kafka and the data lake.
+* Scalability and Performance: Design your architecture to handle growing data volumes.
+## Note: All cloud resources are to be deployed uding Terraform.
