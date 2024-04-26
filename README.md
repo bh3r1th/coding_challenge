@@ -25,3 +25,5 @@ You are tasked with designing and implementing a real-time data pipeline using A
 * Efficiency and Scalability: Your approach to handling real-time data volume and ensuring the architecture can scale with Kafka will be evaluated.
 * Code Quality and Maintainability: Clarity, efficiency, and adherence to best practices will be considered when reviewing the code samples for Kafka producers and consumers.
 * Documentation and Communication: Your ability to document design decisions, code functionality, and potential challenges through clear and concise communication will be evaluated.
+---
+## Summary
